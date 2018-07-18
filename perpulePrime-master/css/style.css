@@ -1,0 +1,147 @@
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: !important 0px;
+    padding: 0px;
+}
+.outer1{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.myHeader{
+  position: relative;
+  left:-1%;
+  color:#000C44
+}
+.inner1{
+  position: relative;
+  left:3%;
+  top:36%;
+}
+.myLine{
+  width:15%;
+  position: relative;
+}
+p{
+  font-size: 20px;
+  vertical-align:top;
+
+}
+.outer2{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.inner2{
+  position: relative;
+  top:42%;
+  left:5%;
+}
+.myHeader1{
+  position: relative;
+  left: -3%;
+  color: #000C44;
+}
+.outer{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.mainImage{
+  position: relative;
+  width: 100%;
+  height: 200px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.firstImage{
+  float: left;
+  clear: left;
+  width: 32px;
+  height: 32px;
+  hspace:5;
+}
+.twoImage{
+float: left;
+clear: left;
+width: 50px;
+height:  50px;
+vertical-align: middle;
+padding: top;
+	
+}
+.line1{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.firstLine{
+  position: relative;
+  top:-3%;
+}
+/* hr{
+  display: inline;
+  overflow: hidden;
+  position: relative;
+  left:25%;
+} */
+.myBlock{
+  width: 100%;
+	
+}
+ul {
+  list-style-type: none;
+}
+.inner3{
+  position: relative;
+  top:44%;
+  left:2%;
+}
+.thirdImage{
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+}
+.inner4{
+  position: relative;
+  top:46%;
+}
+.inner5{
+  position: relative;
+  top:48%;
+  color:#818C7F;
+}
+.myButton{
+  margin:0 auto;
+  display:block;
+  background-color: #000C44;
+  color: #FF9B0D;
+  padding : 15px 95px 15px 95px;
+  border-radius: 25px;
+}
+.myText{
+  text-align: center;
+}
+
+h4{
+	font-weight: bold;
+}
+hr{
+display: block;
+    height: 1px;
+    border: 0;
+    border-top: 2px solid yellow;
+    margin: 1em 0;
+    padding: 0;
+	width: 40%;
+	
+}
+.vl {
+    border-left: 6px color black ;
+    height: 500px;
+    position: absolute;
+    left: 50%;
+    margin-left: -3px;
+    top: 0;
+}
