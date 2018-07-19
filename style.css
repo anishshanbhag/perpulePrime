@@ -1,0 +1,39 @@
+body, html {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  border: 0;
+
+}
+
+.fancy {
+  line-height: 0.5;
+  text-align: left;
+}
+.fancy span {
+  display: inline-block;
+  position: relative;  
+}
+.fancy span:after {
+  content: "";
+  position: absolute;
+  height: 0px;
+  border-bottom: 1px solid greenyellow;
+  border-top: 1px solid greenyellow;
+  background-color: greenyellow;
+  top: 2px;
+  width: 100%;
+}
+.fancy span:after {
+  left: 100%;
+  margin-left: 15px;
+}
+ul {
+  list-style-type: none;
+  padding-left: 0px;
+}
+
+.myButton{
+	padding : 15px 95px 15px 95px;
+  border-radius: 25px;
+}
